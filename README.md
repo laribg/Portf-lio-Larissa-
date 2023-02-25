@@ -45,7 +45,7 @@ Na construção do documento HTML foram utilizadas as seguintes estruturas bási
 
 <br>
 
-## Fontes
+## 🔖 Fontes
 
 ### Google Fonts
 
