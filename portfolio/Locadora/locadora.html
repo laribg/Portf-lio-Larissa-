@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script type="text/javascript" src="javascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <title>Locadora 2000</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <img style="width: 4%;" src="img/claquete-de-filme.png" alt="imagem claquete-de-filme">
+            <a class="navbar-brand" href="#topo">Locadora 2000</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active"  href="#tabFilmes">Filmes Disponíveis</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="dropGeneros" role="button" href="#drop" data-bs-toggle="dropdown" aria-expanded="false">Filmes por Categoria</a>
+
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li> <a class="dropdown-item" href="#gAcao">Ação            </a> </li>
+                        <li> <a class="dropdown-item" href="#gAnimacao">Animação    </a> </li>
+                        <li> <a class="dropdown-item" href="#gComedia">Comédia      </a> </li>
+                        <li> <a class="dropdown-item" href="#gDrama">Drama          </a> </li>
+                        <li> <a class="dropdown-item" href="#gRomance">Romance      </a> </li>
+                        <li> <a class="dropdown-item" href="#gSuspense">Suspense    </a> </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#cadFilmes">Cadastrar Filme</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <h1 class="display-1 text-center mb-5">Locadora 2000</h1>
+
+    <div class="container">
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th scope="col"> Código     </th>
+                    <th scope="col"> Título     </th>
+                    <th scope="col"> Diretor    </th>
+                    <th scope="col"> Lançamento </th>
+                    <th scope="col"> Gênero     </th>
+                    <th scope="col"> Ator/Atriz Principal</th>
+                    <th scope="col"> Nota IMDb  </th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th class="text-center table-primary" colspan="7" id="#gAcao"> Ação </th>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 1 </th>
+                    <td> Missão: Impossível - Efeito Fallout </td>
+                    <td> Christopher McQuarrie</td>
+                    <td> 26 de julho de 2018</td>
+                    <td> Ação</td>
+                    <td> Tom Cruise, Henry Cavill, Ving Rhames</td>
+                    <td> 7,7/10</td>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 2 </th>
+                    <td> 007 - Operação Skyfall </td>
+                    <td> Sam Mendes</td>
+                    <td> 26 de outubro de 2012</td>
+                    <td> Ação</td>
+                    <td> Daniel Craig, Javier Bardem, Naomie Harris</td>
+                    <td> 7,8/10</td>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 3 </th>
+                    <td> Vingadores: Guerra Infinita </td>
+                    <td> Anthony Russo, Joe Russo</td>
+                    <td> 26 de abril de 2018 </td>
+                    <td> Ação</td>
+                    <td> Robert Downey Jr., Josh Brolin, Chris Hemsworth, Benedict Cumberbatch</td>
+                    <td> 8,4/10</td>
+                </tr>
+
+                <tr>
+                    <th class="text-center table-primary" colspan="7" id="#gAnimacao"> Animação </th>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 4 </th>
+                    <td> Divertida Mente </td>
+                    <td> Pete Docter, Ronnie Del Carmen(co-director) </td>
+                    <td> 18 de junho de 2015 </td>
+                    <td> Animação</td>
+                    <td> Amy Poehler, Bill Hader, Lewis Black (voz)</td>
+                    <td> 8,2/10</td>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 5 </th>
+                    <td> O Rei Leão </td>
+                    <td> Rob Minkoff, Roger Allers </td>
+                    <td> 8 de julho de 1994</td>
+                    <td> Animação</td>
+                    <td> James Earl Jones (voz)</td>
+                    <td> 8,5/10</td>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 6 </th>
+                    <td> Shrek </td>
+                    <td> Andrew Adamson, Vicky Jenson </td>
+                    <td> 22 de junho de 2001 </td>
+                    <td> Animação</td>
+                    <td> Mike Myers, Eddie Murphy, Cameron Diaz (voz)</td>
+                    <td> 7,9/10</td>
+                </tr>
+
+                <tr>
+                    <th class="text-center table-primary" colspan="7" id="#gComedia"> Comédia </th>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 7 </th>
+                    <td> De Volta para o Futuro </td>
+                    <td> Robert Zemeckis</td>
+                    <td> 25 de dezembro de 1985</td>
+                    <td> Comédia</td>
+                    <td> Michael J. Fox, Christopher Lloyd, Lea Thompson</td>
+                    <td> 8,5/10</td>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 8 </th>
+                    <td> Garota Veneno </td>
+                    <td> Tom Brady</td>
+                    <td> 9 de maio de 2003</td>
+                    <td> Comédia</td>
+                    <td> Rob Schneider, Rachel McAdams, Anna Faris</td>
+                    <td> 5,5/10</td>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 9 </th>
+                    <td> Ratatouille </td>
+                    <td> Brad Bird, Jan Pinkava (co-director)</td>
+                    <td> 1 de novembro de 1990</td>
+                    <td> Comédia</td>
+                    <td> Brad Garrett, Lou Romano, Patton Oswalt (voz)</td>
+                    <td> 8,1/10</td>
+                </tr>
+
+                <tr>
+                    <th class="text-center table-primary" colspan="7" id="#gDrama"> Drama </th>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 10 </th>
+                    <td> Escritores da Liberdade </td>
+                    <td> Richard LaGravenese</td>
+                    <td> 5 de janeiro de 2007</td>
+                    <td> Drama</td>
+                    <td> Hilary Swank, Imelda Staunton, Patrick Dempsey</td>
+                    <td> 7,6/10</td>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 11 </th>
+                    <td> Sete Vidas </td>
+                    <td> Gabriele Muccino</td>
+                    <td> 25 de dezembro de 2008</td>
+                    <td> Drama</td>
+                    <td> Will Smith, Rosario Dawson, Woody Harrelson</td>
+                    <td> 7,6/10</td>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 12 </th>
+                    <td> Um Sonho de Liberdade </td>
+                    <td> Frank Darabont</td>
+                    <td> 17 de março de 1995</td>
+                    <td> Drama</td>
+                    <td> Morgan Freeman</td>
+                    <td> 9,3/10</td>
+                </tr>
+
+                <tr>
+                    <th class="text-center table-primary" colspan="7" id="#gRomance"> Romance </th>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 13 </th>
+                    <td> A Culpa É das Estrelas </td>
+                    <td> Josh Boone</td>
+                    <td> 5 de junho de 2014</td>
+                    <td> Romance</td>
+                    <td> Shailene Woodley, Ansel Elgort, Nat Wolff</td>
+                    <td> 7,7/10</td>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 14 </th>
+                    <td> Ghost: do outro lado da vida </td>
+                    <td> Jerry Zucker</td>
+                    <td> 1 de novembro de 1990</td>
+                    <td> Romance</td>
+                    <td> Patrick Swayze, Demi Moore</td>
+                    <td> 7,1/10</td>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 15 </th>
+                    <td> Um Amor para Recordar </td>
+                    <td> Adam Shankman</td>
+                    <td> 25 de janeiro de 2002</td>
+                    <td> Romance</td>
+                    <td> Mandy Moore, Shane West, Peter Coyote</td>
+                    <td> 7,3/10</td>
+                </tr>
+
+                <tr>
+                    <th class="text-center table-primary" colspan="7" id="#gSuspense"> Suspense </th>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 16 </th>
+                    <td> Fragmentado </td>
+                    <td> M. Night Shyamalan</td>
+                    <td> 17 de março de 2017 </td>
+                    <td> Suspense</td>
+                    <td> James McAvoy </td>
+                    <td> 7,3/10</td>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 17 </th>
+                    <td> Garota Exemplar </td>
+                    <td> David Fincher</td>
+                    <td> 2 de outubro de 2014</td>
+                    <td> Suspense</td>
+                    <td> Rosamund Pike</td>
+                    <td> 8,1/10</td>
+                </tr>
+
+                <tr>
+                    <th scope="row"> 18 </th>
+                    <td> Jogos Mortais </td>
+                    <td> James Wan</td>
+                    <td> 4 de fevereiro de 2005</td>
+                    <td> Suspense</td>
+                    <td> Cary Elwes, Leigh Whannell, Danny Glover </td>
+                    <td> 7,6/10</td>
+                </tr>
+
+                <!-- 18 filmes adicionados-->
+                <tr id="inserirTabela">
+
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    <div class="m-5">
+		<hr class="border-primary border-3 opacity-75">
+	</div>
+
+    <h2 class="text-center mb-5">Cadastro de Filmes</h2>
+
+    <div class="container mb-5">
+        <form name="cadastrar" onsubmit="event.preventDefault()">
+            <div class="row">
+                
+                <div class="mb-3 col">
+                    <label for="codFilme" class="form-label">Código:</label>
+                    <input type="text" id="codFilme" class="form-control" placeholder="00" name="codigo" required>
+                </div>
+
+                <div class="mb-3 col">
+                    <label for="anoFilme" class="form-label">Ano de Lançamento:</label>
+                    <input type="date" id="anoFilme" class="form-control" name="data" required>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="mb-3 col">
+                    <label for="titFilme" class="form-label">Título:</label>
+                    <input type="text" id="titFilme" class="form-control" name="titulo" required>
+                </div>
+
+                <div class="mb-3 col">
+                    <label for="dirFilme" class="form-label">Diretor:</label>
+                    <input type="text" id="dirFilme" class="form-control" name="diretor" required>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="mb-3 col">
+                    <label for="atrFilme" class="form-label">Ator/Atriz Principal:</label>
+                    <input type="text" id="atrFilme" class="form-control" name="ator" required>
+                </div>
+
+                <div class="mb-3 col">
+                    <label for="notFilme" class="form-label">Nota IMDb:</label>
+                    <input type="number" id="notFilme" class="form-control" name="nota" required>
+                </div>
+
+            </div>
+            <br>
+            <div class="row">
+                <div class="mb-3 col form-check">
+                    <input type="radio" name="radio" id="redGenAcao" class="form-check-input" value="Ação" required>
+                    <label for="redGenAcao" class="form-label">Ação</label>
+                    <br>
+                </div>
+
+                <div class="mb-3 col form-check">
+                    <input type="radio" name="radio" id="redGenAnim" class="form-check-input" value="Animação" required>
+                    <label for="redGenAnim" class="form-label">Animação</label>
+                    <br>
+                </div>
+
+                <div class="mb-3 col form-check">
+                    <input type="radio" name="radio" id="redGenCom" class="form-check-input" value="Comédia" required>
+                    <label for="redGenCom" class="form-label">Comédia</label>
+                    <br>
+                </div>
+
+                <div class="mb-3 col form-check">
+                    <input type="radio" name="radio" id="redGenDram" class="form-check-input" value="Drama" required>
+                    <label for="redGenDram" class="form-label">Drama</label>
+                    <br>
+                </div>
+
+                <div class="mb-3 col form-check">
+                    <input type="radio" name="radio" id="redGenRom" class="form-check-input" value="Romance" required>
+                    <label for="redGenRom" class="form-label">Romance</label>
+                    <br>
+                </div>
+
+                <div class="mb-3 col form-check">
+                    <input type="radio" name="radio" id="redGenSusp" class="form-check-input" value="Suspense" required>
+                    <label for="redGenSusp" class="form-label">Suspense</label>
+                    <br>
+                </div>
+            </div>
+            <br>
+            <div class="col-auto text-center">
+                <button type="submit" class="btn btn-primary mb-3" onclick="insere()">Cadastrar</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

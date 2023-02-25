@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script type="text/javascript" src="javascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <title>Sistema de Controle de Estoque</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <img class="rounded" style="width: 20%;" src="img/imglogo.jpg" alt="imagem logo">
+            <a class="navbar-brand" href="#topo">Sistema de Controle de Estoque</a>
+        </div>
+    </nav>
+    <br> <br> <br>
+	<h1 class="display-2 text-center mb-5">Controle de Estoque de Produtos</h1>
+   
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="text-center">
+            <img class="img-fluid rounded mx-auto d-block" style="width: 80%;" class="img" src="./img/imgprincipal.jpg" alt="Imagem Ilustrativa do estoque">
+        </div>
+    </nav>
+
+    <div class="container">
+		<table class="table table-striped table-hover">
+			
+			<thead>
+				<tr>
+                    <th scope="col">Código do Produto	</th>
+					<th scope="col">Data de Entrada		</th>
+                    <th scope="col">Quantidade			</th>
+					<th scope="col">Descrição do Produto</th>
+					<th scope="col">Marca 			    </th>
+                    <th scope="col">Prateleira 			</th>
+                    <th scope="col">Categoria 			</th>
+				</tr>
+			</thead>
+
+            <tbody>
+				<tr>
+					<th class="text-center" colspan="7" id="#mEsc" style="background-color: rgb(188, 161, 219);">Brinquedos</th>
+				</tr>
+				
+			  	<tr>
+					<th scope="row">113470</th>
+					<td>08/11/2022</td>
+					<td>300 un</td>
+					<td>Carro de polícia transformers vira robo 3 d com sons luzes led e movimento</td>
+					<td>Caretatek</td>
+					<td>A15</td>
+                    <td>Brinquedos</td>
+				</tr>
+
+                <tr>
+					<th scope="row">237503</th>
+					<td>08/11/2022</td>
+					<td>550 un</td>
+					<td>Boneca Princesa Moana Bebê Disney World</td>
+					<td>Cotiplás</td>
+					<td>A47</td>
+                    <td>Brinquedos</td>
+				</tr>
+
+                <tr>
+					<th scope="row">323468</th>
+					<td>10/11/2022</td>
+					<td>800 un</td>
+					<td>Bola de Vinil Inflável, Carros</td>
+					<td>Zippy Toys</td>
+					<td>A23</td>
+                    <td>Brinquedos</td>
+				</tr>
+
+                <tr>
+					<th scope="row">413497</th>
+					<td>10/11/2022</td>
+					<td>220 un</td>
+					<td>Jogo Pega Varetas Multicolor Crianças Meninos e Meninas</td>
+					<td>Elka</td>
+					<td>A25</td>
+                    <td>Brinquedos</td>
+				</tr>
+
+                <tr>
+					<th class="text-center" colspan="7" id="#mEsc" style="background-color: rgb(188, 161, 219);">Material Escolar</th>
+				</tr>
+
+                <tr>
+					<th scope="row">535670</th>
+					<td>01/11/2022</td>
+					<td>1.000 cx</td>
+					<td>Lápis Preto Sextavado HB nº 2 com 72 unidades</td>
+					<td>BIC Evolution</td>
+					<td>C9</td>
+                    <td>Material Escolar</td>
+				</tr>
+
+                <tr>
+					<th scope="row">696204</th>
+					<td>11/11/2022</td>
+					<td>850 un</td>
+					<td>Caderno de Cartografia e Desenho Espiral Capa Dura, vermelho, 80 folhas</td>
+					<td>Tilibra</td>
+					<td>C14</td>
+                    <td>Material Escolar</td>
+				</tr>
+
+                <tr>
+					<th scope="row">723468</th>
+					<td>01/11/2022</td>
+					<td>500 cx</td>
+					<td>Tesoura Escolar, preto, 13cm com 24 Unidades</td>
+					<td>Masterprint</td>
+					<td>C27</td>
+                    <td>Material Escolar</td>
+				</tr>
+
+                <tr>
+					<th scope="row">860483</th>
+					<td>10/11/2022</td>
+					<td>350 un</td>
+					<td>Régua em Poliestireno 30 cm Académie</td>
+					<td>Tilibra</td>
+					<td>C32</td>
+                    <td>Material Escolar</td>
+				</tr>
+
+                <tr>
+					<th class="text-center" colspan="7" id="#mEsc" style="background-color: rgb(188, 161, 219);">Material de Escritório</th>
+				</tr>
+
+                <tr>
+					<th scope="row">924697</th>
+					<td>08/11/2022</td>
+					<td>1.500 un</td>
+					<td>Agenda 2023 Executiva 135mmx192mm 176 Folhas</td>
+					<td>Foroni</td>
+					<td>F60</td>
+                    <td>Material de Escritório</td>
+				</tr>
+
+                <tr>
+					<th scope="row">106592</th>
+					<td>11/11/2022</td>
+					<td>480 un</td>
+					<td>Pasta AZ A4 Lombo Largo, Preta, AZ0101</td>
+					<td>BRW</td>
+					<td>F22</td>
+                    <td>Material de Escritório</td>
+				</tr>
+
+                <tr>
+					<th scope="row">113023</th>
+					<td>10/11/2022</td>
+					<td>296 un</td>
+					<td>Lixeira de Metal Redonda, Capacidade de 8.5L, Cor Preta</td>
+					<td>Ordene Br</td>
+					<td>F31</td>
+                    <td>Material de Escritório</td>
+				</tr>
+
+                <tr>
+					<th scope="row">129875</th>
+					<td>01/11/2022</td>
+					<td>750 un</td>
+					<td>Grampeador Metal Quality para 50 folhas, Prata</td>
+					<td>Leonora</td>
+					<td>F33</td>
+                    <td>Material de Escritório</td>
+				</tr>
+
+                <tr>
+					<th class="text-center" colspan="7" id="#mAdd" style="background-color: rgb(188, 161, 219);">Adicionados Recentemente</th>
+				</tr>
+                <tr id="inserirTabela">
+					
+				</tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div class="m-5">
+		<hr class="border-secondary border-4 opacity-75">
+	</div>
+
+    <h2 class="text-center mb-5">Cadastro de Produtos</h2>
+
+	<div class="container mb-5">
+		<form name="cadastrar" onsubmit="event.preventDefault()">
+			<div class="row">
+				<div class="mb-3 col">
+					<label for="codProduto" class="form-label">Código: </label>
+					<input type="number" id="codProduto" class="form-control" placeholder="00" name="codigo" required>
+				</div>
+				
+				<div class="mb-3 col">
+					<label for="dataEntrada" class="form-label">Data de Entrada: </label>
+					<input type="date" id="dataEntrada" class="form-control" name="data" required>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="mb-3 col">
+					<label for="quant" class="form-label">Quantidade: </label>
+					<input type="text" id="quant" class="form-control" name="quantidade" required>
+				</div>
+				
+				<div class="mb-3 col">
+					<label for="descProdut" class="form-label">Descrição do Produto: </label>
+					<input type="text" id="descProdut" class="form-control" name="descProd" required>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="mb-3 col">
+					<label for="marc" class="form-label">Marca: </label>
+					<input type="text" id="marc" class="form-control" name="marca" required>
+				</div>
+				
+				<div class="mb-3 col">
+					<label for="prateleira" class="form-label">Prateleira: </label>
+					<input type="text" id="prateleira" class="form-control" name="prat" required>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="mb-3 col form-check">
+					<input type="radio" name="radio" id="radCatBrinq" class="form-check-input" value="Brinquedos" required>
+					<label for="radCatBrinq" class="form-label">Brinquedos</label>
+				</div>
+				<div class="mb-3 col form-check">
+					<input type="radio" name="radio" id="radCatMatEsc" class="form-check-input" value="Material Escolar" required>
+					<label for="radCatMatEsc" class="form-label">Material Escolar</label>
+				</div>
+				<div class="mb-3 col form-check">
+					<input type="radio" name="radio" id="radCatMatEscrit" class="form-check-input" value="Material de Escritório" required>
+					<label for="radCatMatEscrit" class="form-label">Material de Escritório</label>
+				</div>
+			</div>
+
+			<div class="col-auto text-center">
+				<button type="submit" class="btn mb-3" style="background-color: rgb(134, 50, 231);color: aliceblue;" onclick="insere()">Cadastrar</button>
+			</div>
+
+		</form>
+	</div>
+
+</body>

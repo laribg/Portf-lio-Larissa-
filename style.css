@@ -1,0 +1,135 @@
+
+.navbar {
+    background-color: rgb(250, 243, 243);
+}
+
+.navbar a:hover {
+    background-color: rgb(235, 171, 160);
+    border-radius: 15px;
+}
+
+button{
+    border: none;
+    color: white;
+    height: 40px;
+    width: 60px;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 30px 10px;
+    border-radius: 15px;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-size: cover;
+}
+
+.imagemSobre {
+    width: 100%;
+    height: 550px;
+}
+
+.sobre-mim {
+    text-align: justify;
+}
+
+/*  habilidades*/
+
+.habilitText.card {
+    height: 120px;
+    cursor: pointer;
+}
+
+.habilitIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card:hover .habilitIcon {
+    color: #005180;
+}
+
+.card:hover .habit-01 {
+    color: rgb(202, 20, 20);
+}
+
+.card:hover .habit-02 {
+    color: rgb(237, 187, 6);
+}
+
+.card:hover .habit-03 {
+    color: rgb(237, 60, 6);
+}
+
+.card:hover .habit-04 {
+    color: rgb(41, 40, 73);
+}
+
+.card:hover .habit-05 {
+    color: rgb(38, 216, 6);
+}
+
+.card:hover .habit-06 {
+    color: #563d7c;
+}
+
+.habilitText:hover {
+    border: 2px solid #31a5a7;
+}
+
+.projetos {
+    text-align: justify;
+    height: 200px;
+}
+
+.card-img-top {
+    height: 300px;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.contText.card {
+    height: 150px;
+    cursor: pointer;
+}
+
+.contText:hover {
+    border: 2px solid #31a5a7;
+}
+
+.contactIcon {
+    font-size: 56px;
+    color:  #005180;
+}
+
+.contactFooter {
+    font-size: 25px;
+    color: rgb(12, 2, 42);
+}
+
+#sobre, #habilidades, #portfolio, #contato {
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+  background-color: rgb(245, 243, 241);  
+}
+
+h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 400;
+}
+
+.hero_titulo {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
